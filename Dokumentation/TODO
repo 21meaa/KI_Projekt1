@@ -1,0 +1,29 @@
+DATEN:
+    - Dieses 5.574 SMS --> Diese 5.574 SMS
+    - Das Heist --> Das heißt
+
+FEATURES:
+    - NumChars -> die Anzahl der Buchstaben in der E-Mail --> numChars -> die Anzahl der Buchstaben in der SMS
+    - containNumSequence --> containsNumSequence
+    - numAbbreviations --> Leere "" am Ende
+
+TRAININGSPROZESS:
+    - (es ist weniger schlimm, wenn ein paar Spam Nachrichten durch Kommen.) --> "Kommen" klein schreiben
+    - Für den Test wurde SMSSpamCollection_complete_DEF-2.arff erstellt, welcher 557 Instanzen und 8 Attribute --> "hat" am Ende hinzufügen
+    - Im Vergleich zum zweiten Test, welcher 3 falsch erkannte Spam-Nachrichtenaufweist --> Zwei Wörter am Ende ohne Leerzeichen
+
+PROJEKTDOKUMENTATION:
+    - Nach dem wir den ersten Test --> Nachdem
+    - Nach dem wir den Test durchgeführt haben --> Nachdem
+
+ABSCHLUSSEVALUATION:
+    - nicht als Einsatz Tauglich ansehen --> nicht als einsatztauglich ansehen
+    - Eine Sache die wir aus den Datensätzen, und den ersten Test bemerkt haben --> kein Komma vor "und"
+    - ist dass der Lerner Bereits mit Wenig --> "Bereits" und "Wenig" klein
+    - durch das Weglassen von Attributen. Was dann jedoch auch zu mehr false Positive führt. --> Komma statt Punkt zwischen den zwei Sätzen
+
+ZUSATZPUNKTE:
+    - Daten Satz --> Datensatz
+    - Benützt --> Benutzt
+    - Er Berechnet --> Er berechnet
+    - Ein Gutes Beispiel --> Ein gutes Beispiel
